@@ -212,7 +212,12 @@ font-size: 1.5rem;
 `
 
 export const ParticipatePhone = styled.div`
+  
+
   a {
+    background-color: #54b267;
+    border-radius: 15px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -223,7 +228,7 @@ export const ParticipatePhone = styled.div`
   }
 
   span {
-    font-size: 1.875rem;
+    font-size: 1.625rem;
   }
 
   svg {
