@@ -9,7 +9,7 @@ export const Content = styled.main`
   margin-bottom: 2rem;
   
   @media(min-width: 768px) {
-    padding: 1rem 10rem;
+    padding: 1rem 2rem;
     margin-bottom: 5rem;
   }
 `
@@ -34,6 +34,14 @@ export const Header = styled.header`
     flex-direction: row;
     align-items: flex-end;
     min-height: 512px;
+    padding: 1rem 3rem;
+  }
+
+  @media(min-width: 1280px) {
+    padding: 1rem 5rem;
+  }
+
+  @media(min-width: 1440px) {
     padding: 1rem 10rem;
   }
 `
