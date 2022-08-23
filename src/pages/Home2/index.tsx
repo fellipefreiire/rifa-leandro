@@ -36,7 +36,7 @@ export const Home2 = () => {
                 <p>Microfone sem fio</p>
                 <p>Máquina de fumaça</p>
                 <S.SocialLinks>
-                  <a href=''>@echos.insight_music</a>
+                  <a href='https://www.instagram.com/echoes.insight_music'>@echoes.insight_music</a>
                   <a href='https://www.instagram.com/dekodjjj/'>@dekodjjj</a>
                   <a href='https://www.instagram.com/leandrolucasdj/'>@leandrolucasdj</a>
                 </S.SocialLinks>
