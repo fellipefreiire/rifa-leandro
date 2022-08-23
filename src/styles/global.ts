@@ -1,3 +1,4 @@
+import { globalCss } from '@stitches/react';
 import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
@@ -19,3 +20,16 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1rem;
   }
 `
+
+export const globalStyles = globalCss({
+  '*': { margin: 0, padding: 0, boxSizing: 'border-box' },
+  body: {
+    backgroundColor: '#FAAF1D',
+    '-webkit-font-smoothing': 'antialiased',
+    margin: 'auto'
+  },
+  'body, input, textarea, button': {
+    fontFamily: 'Inter, sans-serif',
+    fontSize: '1rem'
+  }
+});
