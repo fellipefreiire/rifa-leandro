@@ -110,7 +110,11 @@ export const Ticket = () => {
       </S.ContentWrapper>
       <S.ButtonWrapper>
         <S.Button type='button' variant='blue' onClick={downloadPng} disabled={isDownloadDisabled}>Download do Ticket</S.Button>
-        <S.Button type='button' variant='white'>Entrar em contato</S.Button>
+        <S.Button type='button' variant='white'>
+          <a href="https://api.whatsapp.com/send?phone=5574988563472">
+            Entrar em contato
+          </a>
+        </S.Button>
       </S.ButtonWrapper>
     </S.Form>
   )

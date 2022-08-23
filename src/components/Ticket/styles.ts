@@ -111,6 +111,11 @@ export const Button = styled('button', {
     cursor: 'not-allowed'
   },
 
+  '& a': {
+    textDecoration: 'none',
+    color: '$blue900',
+  },
+
   variants: {
     variant: {
       blue: {
